@@ -1,0 +1,43 @@
+#banner {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+  width: 60px;
+  height: auto;
+  text-align: center;
+  line-height: 22px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+#banner:hover {
+  opacity: 0.7;
+}
+.wrapper {
+  position: relative;
+}
+body {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.8em;
+  letter-spacing: 0.05em;
+}
+.header {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #eed;
+}
+.contents {
+  margin: 40px 40px 60px 40px;
+}
+.footer {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background-color: #eed;
+}
